@@ -1,0 +1,18 @@
+{
+    "name" : "Plopper",
+    "identifier" : "plopper",
+    "version" : "1.0",
+    "description" : "Plop symbols",
+    "authorEmail" : "jon@yoomee.com",
+    "author" : "Jon Kyte",
+
+    "commands" : [
+    {
+      "script" : "plopper.js",
+      "handler" : "onRun",
+      "shortcut" : "command shift §",
+      "name" : "Plop random symbol",
+      "identifier" : "plopper.random"
+    }
+  ],
+}
